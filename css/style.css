@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arima Madurai', sans-serif; 
+font-size: 1.2em;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Prosto One', sans-serif;
+}
+
+#mainNav {
+	font-family: "Patrick Hand SC", sans-serif;
+}
+
+#mainNav .navbar-brand{
+	font-family: "Patrick Hand SC", sans-serif;
+	font-size: 2em;
+	
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link{
+	font-size: 1.2em;
+}
+
+header.masthead .header-content .header-content-inner p.gris{
+  color: #333;
+  font-family: "Lobster", cursive;
+  font-size: 1.5em;
+}
+
+.call-to-action h2 {
+    color:white;
+}
+
+.boton{
+	font-family: "Prosto One", sans-serif;
+}
+
+
+@media (min-width: 992px) {
+    #mainNav {
+      border-color: rgba(255, 255, 255, 0.3);
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: rgba(240, 95, 64, 0.7); }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #333; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: rgba(240, 95, 64, 0.7); }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #333; }
+	#mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, 0.05);
+        background-color: white; }
+        #mainNav.navbar-shrink .navbar-brand {
+          font-size: 1.5em;
+          color: #F05F40; }
+          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #f05f40; }
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+          color: #222222; }
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+            color: #F05F40; } 
+}
+

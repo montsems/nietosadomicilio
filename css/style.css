@@ -11,6 +11,10 @@ h6 {
   font-family: 'Prosto One', sans-serif;
 }
 
+h2.blanco{
+	color: white;
+}
+
 #mainNav {
 	font-family: "Patrick Hand SC", sans-serif;
 }
@@ -31,14 +35,10 @@ header.masthead .header-content .header-content-inner p.gris{
   font-size: 1.5em;
 }
 
-.call-to-action h2 {
-    color:white;
-}
-
-.boton{
+.boton, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 	font-family: "Prosto One", sans-serif;
 }
-
 
 @media (min-width: 992px) {
     #mainNav {

@@ -40,6 +40,12 @@ header.masthead .header-content .header-content-inner p.gris{
 	font-family: "Prosto One", sans-serif;
 }
 
+.fa-whatsapp{
+	font-size: 1.5em;
+	color:#333;
+	padding-left: .5em;
+}
+
 @media (min-width: 992px) {
     #mainNav {
       border-color: rgba(255, 255, 255, 0.3);
@@ -69,4 +75,57 @@ header.masthead .header-content .header-content-inner p.gris{
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } 
 }
-
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+	
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
